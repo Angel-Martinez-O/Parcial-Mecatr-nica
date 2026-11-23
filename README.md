@@ -12,7 +12,7 @@ El sistema permite controlar las luces roja, amarilla y verde mediante una secue
 
 El proyecto fue desarrollado mediante simulación en Tinkercad y complementado con una representación tridimensional del prototipo.
 
----
+
 
 ## 2. Integrantes
 
@@ -22,7 +22,7 @@ El proyecto fue desarrollado mediante simulación en Tinkercad y complementado c
 - **Proyecto:** Semáforo electrónico automatizado con Arduino UNO.
 - **Año:** 2026.
 
----
+
 
 ## 3. Problema identificado
 
@@ -50,7 +50,7 @@ Diseñar y simular un sistema de semáforo electrónico automatizado mediante un
 - Representar el diseño del proyecto mediante una maqueta tridimensional.
 - Comprobar mediante simulación el funcionamiento de las diferentes etapas del semáforo.
 
----
+
 
 ## 5. Descripción del funcionamiento
 
@@ -76,7 +76,6 @@ La duración total de una secuencia completa es de 12 segundos.
 
 Este funcionamiento permite representar el comportamiento básico de un semáforo convencional mediante un sistema automatizado.
 
----
 
 ## 6. Componentes utilizados
 
@@ -91,7 +90,6 @@ Este funcionamiento permite representar el comportamiento básico de un semáfor
 | Protoboard | 1 | Facilita la organización de las conexiones. |
 | Tinkercad | 1 plataforma | Permite diseñar y simular el circuito electrónico. |
 
----
 
 ## 7. Arquitectura del sistema
 
@@ -113,7 +111,7 @@ La interacción entre estos elementos permite que el sistema funcione de manera 
 
 ### Flujo general del sistema
 
-```text
+text
         ARDUINO UNO
              |
        PROGRAMA C/C++
@@ -129,9 +127,9 @@ La interacción entre estos elementos permite que el sistema funcione de manera 
       SECUENCIA AUTOMÁTICA
              |
        REPETICIÓN DEL CICLO
-```
 
----
+
+
 
 ## 8. Diagrama de conexiones electrónicas
 
@@ -177,7 +175,7 @@ Es importante utilizar una resistencia independiente para cada LED, ya que su fu
 
 **Nota:** En esta sección se debe insertar una captura real del circuito desarrollado en Tinkercad.
 
----
+
 
 ## 9. Desarrollo del software y explicación del código
 
@@ -189,7 +187,7 @@ El programa utiliza tres pines digitales de Arduino, cada uno conectado a un LED
 
 ### 9.1. Código fuente completo
 
-**Archivo:** `codigo/semaforo.ino`
+Archivo:
 
 
 // Definición de los pines según tu conexión
@@ -223,7 +221,7 @@ void loop() {
   digitalWrite(luzRoja, HIGH);
   delay(5000);
 }
-```
+
 
 ### 9.2. Declaración de los pines
 
@@ -231,7 +229,7 @@ void loop() {
 const int luzRoja = 13;
 const int luzAmarilla = 12;
 const int luzVerde = 11;
-```
+
 
 En esta parte se definen tres variables constantes que representan los pines digitales donde están conectados los LED.
 
@@ -259,9 +257,9 @@ La palabra `OUTPUT` indica que Arduino utilizará estos pines para enviar señal
 
 ### 9.4. Función loop()
 
-```cpp
+
 void loop() {
-```
+
 
 Esta función contiene las instrucciones principales del semáforo.
 
@@ -342,7 +340,7 @@ Mediante este código se logró establecer una secuencia automática de tres se�
 
 Este desarrollo demuestra la aplicación de conceptos fundamentales de programación de microcontroladores, control de salidas digitales y automatización.
 
----
+
 
 ## 10. Instalación y puesta en funcionamiento
 
@@ -362,7 +360,7 @@ Para reproducir el proyecto mediante Tinkercad se deben seguir los siguientes pa
 
 Para una implementación física, se debe realizar el mismo circuito utilizando los componentes electrónicos reales y alimentar correctamente la placa Arduino.
 
----
+
 
 ## 11. Pruebas realizadas
 
@@ -414,7 +412,7 @@ Para verificar el comportamiento del proyecto se establecieron tres pruebas prin
 
 **Nota:** Las pruebas corresponden a la validación mediante simulación. Los resultados definitivos deben registrarse después de observar cada comportamiento y adjuntar las capturas correspondientes.
 
----
+
 
 ## 12. Evidencias fotográficas y visuales
 
@@ -437,7 +435,7 @@ Este diseño complementa el trabajo de simulación electrónica y permite visual
 
 **Importante:** Las imágenes deben corresponder al trabajo realmente realizado. La maqueta 3D y las capturas de Tinkercad se identifican como representaciones digitales, no como fotografías de un montaje físico.
 
----
+
 
 ## 13. Video demostrativo
 
@@ -456,7 +454,7 @@ El video debe incluir:
 
 **Enlace del video:** Pendiente de agregar.
 
----
+
 
 ## 14. Dificultades y soluciones
 
@@ -474,7 +472,7 @@ La programación debe garantizar que las luces se activen en el orden correcto y
 
 **Solución:** Organizar las instrucciones de encendido, apagado y espera mediante las funciones de Arduino, verificando cada etapa durante la simulación.
 
----
+
 
 ## 15. Conclusiones y estado actual del proyecto
 
@@ -508,9 +506,3 @@ El proyecto puede ampliarse mediante nuevas funcionalidades:
 - Mejorar la programación para controlar diferentes tiempos según las necesidades del sistema.
 
 En conclusión, este proyecto permitió comprender cómo se integran los componentes electrónicos con la programación para desarrollar un sistema automatizado. Además, representó una oportunidad para fortalecer los conocimientos adquiridos durante el semestre y aplicarlos en una solución práctica relacionada con la regulación del tránsito.
-
-
-
-
-
-**Corporación Universitaria Americana – 2026.**
