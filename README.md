@@ -102,7 +102,7 @@ La interacción entre estos elementos permite establecer una secuencia automáti
 
 ### Flujo general del sistema
 
-```text
+
         ARDUINO UNO
              |
        PROGRAMA C/C++
@@ -118,7 +118,7 @@ La interacción entre estos elementos permite establecer una secuencia automáti
       SECUENCIA AUTOMÁTICA
              |
        REPETICIÓN DEL CICLO
-```
+
 
 ## 8. Diagrama de conexiones electrónicas
 
@@ -162,7 +162,7 @@ Es importante utilizar una resistencia independiente para cada LED, ya que su fu
 - Cada LED utiliza su propia resistencia de protección.
 - No se deben conectar los LED directamente a los pines sin utilizar resistencias.
 
-**Nota:** En esta sección se puede incluir una imagen del diseño de las conexiones del proyecto.
+
 
 ## 9. Desarrollo del software y explicación del código
 
@@ -174,9 +174,8 @@ El programa utiliza tres pines digitales de Arduino, cada uno destinado a contro
 
 ### 9.1. Código fuente completo
 
-Archivo: `semaforo.ino`
 
-```cpp
+
 // Definición de los pines según nuestra conexión
 const int luzRoja = 13;
 const int luzAmarilla = 12;
@@ -208,15 +207,15 @@ void loop() {
   digitalWrite(luzRoja, HIGH);
   delay(5000);
 }
-```
+
 
 ### 9.2. Declaración de los pines
 
-```cpp
+
 const int luzRoja = 13;
 const int luzAmarilla = 12;
 const int luzVerde = 11;
-```
+
 
 En esta parte definimos tres variables constantes que representan los pines digitales destinados a controlar los LED.
 
@@ -228,13 +227,13 @@ La palabra `const` indica que estos valores permanecen constantes durante la eje
 
 ### 9.3. Función setup()
 
-```cpp
+
 void setup() {
   pinMode(luzRoja, OUTPUT);
   pinMode(luzAmarilla, OUTPUT);
   pinMode(luzVerde, OUTPUT);
 }
-```
+
 
 Esta función se ejecuta una sola vez cuando Arduino inicia o se reinicia.
 
@@ -327,38 +326,8 @@ Mediante este código establecimos una secuencia automática de tres señales lu
 
 Con este desarrollo aplicamos conceptos fundamentales de programación de microcontroladores, control de salidas digitales y automatización.
 
-## 10. Organización del proyecto
 
-Para organizar los archivos del proyecto proponemos la siguiente estructura de carpetas:
-
-`text
-SEMAFORO-ARDUINO/
-│
-├── README.md
-│
-├── codigo/
-│   └── semaforo.ino
-│
-├── diagramas/
-│   ├── conexiones.png
-│   └── maqueta_3d.png
-│
-├── evidencias/
-│   ├── fotos/
-│   │   ├── evidencia_1.png
-│   │   ├── evidencia_2.png
-│   │   └── evidencia_3.png
-│   │
-│   └── videos/
-│       └── enlace_video.txt
-│
-└── documentacion/
-    └── descripcion_tecnica.md
-
-
-Esta organización permite mantener separados el código fuente, los diagramas, las evidencias y la documentación del proyecto.
-
-## 11. Análisis del funcionamiento del proyecto
+## 10. Análisis del funcionamiento del proyecto
 
 De acuerdo con el código desarrollado, podemos identificar tres etapas principales en el funcionamiento del semáforo.
 
@@ -392,14 +361,14 @@ La secuencia está definida en el código fuente y tiene una duración total de 
 
 Esta explicación permite comprender cómo debería comportarse el sistema de acuerdo con las instrucciones de programación.
 
-## 12. Evidencias fotográficas y visuales
+## 11. Evidencias fotográficas y visuales
 
 
 <img width="450" alt="Evidencia del proyecto" src="https://github.com/user-attachments/assets/ece49bd8-87ab-4f30-af66-1ac4e3e4b433" />
 
 
 
-## 13. Video demostrativo
+## 12. Video demostrativo
 
 
 
@@ -407,7 +376,7 @@ https://github.com/user-attachments/assets/ab6c1f60-d206-46ed-bb02-1e346a0d4af6
 
 
 
-## 14. Dificultades y soluciones
+## 13. Dificultades y soluciones
 
 Durante el desarrollo de nuestro proyecto tuvimos en cuenta diferentes aspectos técnicos necesarios para comprender el funcionamiento de un semáforo electrónico.
 
@@ -423,7 +392,7 @@ La programación debe establecer que las luces se activen en el orden correcto y
 
 **Solución:** Organizamos las instrucciones de encendido, apagado y espera mediante las funciones de Arduino, teniendo en cuenta los tiempos establecidos para cada luz.
 
-## 15. Conclusiones y estado actual del proyecto
+## 14. Conclusiones y estado actual del proyecto
 
 El desarrollo de nuestro semáforo electrónico nos permitió trabajar con conocimientos fundamentales de electrónica, programación y automatización mediante el uso de Arduino UNO.
 
