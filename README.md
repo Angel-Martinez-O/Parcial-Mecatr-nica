@@ -1,6 +1,6 @@
 # SEMÁFORO ELECTRÓNICO AUTOMATIZADO CON ARDUINO UNO
 
-## 1. Nombre del proyecto
+## 1.proyecto
 
 **Diseño de un semáforo electrónico automatizado utilizando Arduino UNO.**
 
@@ -14,8 +14,8 @@ El proyecto también fue complementado con una representación tridimensional de
 
 ## 2. Integrantes
 
-- **Estudiantes:** Angel Gabriel Martínez Olandete, Andres Bruges y Jesus Manuel Aguilar Bello.
-- **Asignatura:** Mecatrónica.
+- **Estudiantes:** Angel Martínez, Andres Bruges y Jesus Aguilar.
+- **Asignatura:** Fundamentos De Mecatrónica.
 - **Institución:** Corporación Universitaria Americana.
 - **Proyecto:** Semáforo electrónico automatizado con Arduino UNO.
 - **Año:** 2026.
@@ -66,7 +66,6 @@ El semáforo utiliza tres luces:
 4. Después de terminar el tiempo de la luz roja, el programa vuelve a activar la luz verde.
 5. El proceso se repite continuamente.
 
-La duración total de una secuencia completa es de 12 segundos.
 
 Mediante esta programación representamos el comportamiento básico de un semáforo convencional utilizando un sistema automatizado.
 
@@ -148,7 +147,7 @@ Para el diseño del circuito establecimos tres salidas digitales de Arduino UNO.
 
 **LED verde:**
 
-- La pata larga (ánodo) se conecta a una resistencia de 220 Ω o 330 Ω.
+- La pata larga (ánodo) se conecta a una resistencia de 220 Ω .
 - El otro extremo de la resistencia se conecta al pin digital 11.
 - La pata corta (cátodo) se conecta a GND.
 
@@ -392,7 +391,7 @@ La programación debe establecer que las luces se activen en el orden correcto y
 
 **Solución:** Organizamos las instrucciones de encendido, apagado y espera mediante las funciones de Arduino, teniendo en cuenta los tiempos establecidos para cada luz.
 
-## 14. Conclusiones y estado actual del proyecto
+## 14. Conclusiones 
 
 El desarrollo de nuestro semáforo electrónico nos permitió trabajar con conocimientos fundamentales de electrónica, programación y automatización mediante el uso de Arduino UNO.
 
@@ -401,12 +400,6 @@ A través de este proyecto comprendimos la importancia de los microcontroladores
 También estudiamos la identificación de componentes electrónicos, la conexión de LED, el uso de resistencias para limitar la corriente y la configuración de salidas digitales.
 
 La programación nos permitió establecer una secuencia de funcionamiento con tiempos definidos de cinco segundos para la luz verde, dos segundos para la amarilla y cinco segundos para la roja.
-
-Adicionalmente, elaboramos una maqueta tridimensional que complementó el diseño electrónico con una representación visual de cómo podría presentarse el prototipo terminado.
-
-### Estado actual
-
-Nuestro proyecto cuenta con el diseño del semáforo electrónico, el código de programación y una representación tridimensional del prototipo.
 
 
 ### Mejoras futuras
