@@ -408,7 +408,6 @@ Adicionalmente, elaboramos una maqueta tridimensional que complementó el diseñ
 
 Nuestro proyecto cuenta con el diseño del semáforo electrónico, el código de programación y una representación tridimensional del prototipo.
 
-El montaje físico no se presenta como una implementación realizada. Por esta razón, la documentación describe el diseño, la programación y la propuesta de funcionamiento del sistema.
 
 ### Mejoras futuras
 
