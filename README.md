@@ -394,7 +394,7 @@ Esta explicación permite comprender cómo debería comportarse el sistema de ac
 
 ## 12. Evidencias fotográficas y visuales
 
-<img width="450" height="1152" alt="evidencia" src="https://github.com/user-attachments/assets/09a8fce2-96bf-4163-9077-42e67c2ded63" />
+
 <img width="450" alt="Evidencia del proyecto" src="https://github.com/user-attachments/assets/ece49bd8-87ab-4f30-af66-1ac4e3e4b433" />
 
 
