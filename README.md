@@ -419,7 +419,7 @@ Para verificar el comportamiento del proyecto se establecieron tres pruebas prin
 ## 12. Evidencias fotográficas y visuales
 
 Las evidencias 
-<img width="864" height="1152" alt="evidencia" src="https://github.com/user-attachments/assets/ece49bd8-87ab-4f30-af66-1ac4e3e4b433" />
+<img width="700" alt="Evidencia del proyecto" src="https://github.com/user-attachments/assets/ece49bd8-87ab-4f30-af66-1ac4e3e4b433" />
 
 
 ### Representación tridimensional
