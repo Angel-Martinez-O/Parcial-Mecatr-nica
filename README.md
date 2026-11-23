@@ -422,6 +422,11 @@ Las evidencias
 <img width="450" alt="Evidencia del proyecto" src="https://github.com/user-attachments/assets/ece49bd8-87ab-4f30-af66-1ac4e3e4b433" />
 
 
+https://github.com/user-attachments/assets/2e759d77-87da-4990-8d8c-be9260154594
+
+
+
+
 ### Representación tridimensional
 
 Como complemento al desarrollo electrónico, se elaboró una representación tridimensional del semáforo para mostrar cómo podría visualizarse el prototipo en una estructura física.
