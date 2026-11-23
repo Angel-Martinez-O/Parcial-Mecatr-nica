@@ -361,7 +361,7 @@ La secuencia está definida en el código fuente y tiene una duración total de 
 
 Esta explicación permite comprender cómo debería comportarse el sistema de acuerdo con las instrucciones de programación.
 
-## 11. Evidencias fotográficas y visuales
+## 11. Evidencia
 
 
 <img width="450" alt="Evidencia del proyecto" src="https://github.com/user-attachments/assets/ece49bd8-87ab-4f30-af66-1ac4e3e4b433" />
