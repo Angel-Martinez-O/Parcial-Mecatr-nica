@@ -191,7 +191,7 @@ El programa utiliza tres pines digitales de Arduino, cada uno conectado a un LED
 
 **Archivo:** `codigo/semaforo.ino`
 
-```cpp
+
 // Definición de los pines según tu conexión
 const int luzRoja = 13;
 const int luzAmarilla = 12;
@@ -227,7 +227,7 @@ void loop() {
 
 ### 9.2. Declaración de los pines
 
-```cpp
+
 const int luzRoja = 13;
 const int luzAmarilla = 12;
 const int luzVerde = 11;
@@ -243,13 +243,13 @@ La palabra `const` indica que estos valores permanecen constantes durante la eje
 
 ### 9.3. Función setup()
 
-```cpp
+
 void setup() {
   pinMode(luzRoja, OUTPUT);
   pinMode(luzAmarilla, OUTPUT);
   pinMode(luzVerde, OUTPUT);
 }
-```
+
 
 Esta función se ejecuta una sola vez cuando Arduino inicia o se reinicia.
 
@@ -269,12 +269,12 @@ Arduino ejecuta continuamente las instrucciones que se encuentran dentro de `loo
 
 ### 9.5. Primera etapa: encendido de la luz verde
 
-```cpp
+
 digitalWrite(luzVerde, HIGH);
 digitalWrite(luzAmarilla, LOW);
 digitalWrite(luzRoja, LOW);
 delay(5000);
-```
+
 
 En esta etapa se enciende el LED verde utilizando `HIGH`.
 
@@ -284,12 +284,12 @@ La instrucción `delay(5000)` establece una espera de 5.000 milisegundos, equiva
 
 ### 9.6. Segunda etapa: encendido de la luz amarilla
 
-```cpp
+
 digitalWrite(luzVerde, LOW);
 digitalWrite(luzAmarilla, HIGH);
 digitalWrite(luzRoja, LOW);
 delay(2000);
-```
+
 
 En esta parte se apaga la luz verde y se enciende la luz amarilla.
 
@@ -299,12 +299,12 @@ El programa espera 2.000 milisegundos, equivalentes a dos segundos, antes de con
 
 ### 9.7. Tercera etapa: encendido de la luz roja
 
-```cpp
+
 digitalWrite(luzVerde, LOW);
 digitalWrite(luzAmarilla, LOW);
 digitalWrite(luzRoja, HIGH);
 delay(5000);
-```
+
 
 En esta última etapa se apagan las luces verde y amarilla, mientras que se enciende la luz roja.
 
