@@ -1,60 +1,54 @@
- SEMÁFORO ELECTRÓNICO AUTOMATIZADO CON ARDUINO UNO
+# SEMÁFORO ELECTRÓNICO AUTOMATIZADO CON ARDUINO UNO
 
 ## 1. Nombre del proyecto
 
-**Diseño y simulación de un semáforo electrónico automatizado utilizando Arduino UNO.**
+**Diseño de un semáforo electrónico automatizado utilizando Arduino UNO.**
 
-El presente proyecto consiste en el diseño y desarrollo de un semáforo electrónico automatizado mediante una placa Arduino UNO, tres diodos LED de diferentes colores y un programa que controla la secuencia de encendido y apagado de cada luz.
+En este proyecto desarrollamos el diseño de un semáforo electrónico automatizado mediante una placa Arduino UNO, tres diodos LED de diferentes colores y un programa que controla la secuencia de encendido y apagado de cada luz.
 
-El propósito principal es representar el funcionamiento de un semáforo convencional utilizando conocimientos de electrónica básica, programación de microcontroladores y automatización.
+Nuestro propósito principal fue representar el funcionamiento de un semáforo convencional aplicando conocimientos de electrónica básica, programación de microcontroladores y automatización.
 
-El sistema permite controlar las luces roja, amarilla y verde mediante una secuencia programada, simulando el comportamiento de un semáforo utilizado para regular el tránsito vehicular.
+El sistema utiliza tres luces: roja, amarilla y verde. Cada una tiene un tiempo de funcionamiento establecido mediante un código de programación, simulando el comportamiento básico de un semáforo utilizado para regular el tránsito.
 
-El proyecto fue desarrollado mediante simulación en Tinkercad y complementado con una representación tridimensional del prototipo.
-
-
+El proyecto también fue complementado con una representación tridimensional del prototipo para mostrar cómo podría verse su estructura física.
 
 ## 2. Integrantes
 
-- **Estudiante:** Ángel Gabriel Martínez Olandete.
+- **Estudiantes:** Angel Gabriel Martínez Olandete, Andres Bruges y Jesus Manuel Aguilar Bello.
 - **Asignatura:** Mecatrónica.
 - **Institución:** Corporación Universitaria Americana.
 - **Proyecto:** Semáforo electrónico automatizado con Arduino UNO.
 - **Año:** 2026.
 
-
-
 ## 3. Problema identificado
 
 La regulación del tránsito es fundamental para mantener el orden y prevenir accidentes en las vías. Los semáforos cumplen una función importante porque permiten organizar el paso de vehículos y peatones mediante señales luminosas.
 
-A partir de esta necesidad, se propuso desarrollar un semáforo electrónico automatizado que permitiera representar cómo funciona un sistema de control de tráfico utilizando componentes electrónicos y un microcontrolador.
+A partir de esta necesidad, como grupo propusimos desarrollar un semáforo electrónico automatizado que nos permitiera representar cómo funciona un sistema de control de tráfico utilizando componentes electrónicos y un microcontrolador.
 
-El problema que se busca abordar mediante este proyecto es comprender cómo se puede automatizar un sistema de señalización mediante instrucciones programadas, logrando que diferentes luces se activen y desactiven en un orden establecido sin necesidad de intervención manual.
+El problema que buscamos abordar mediante este proyecto es comprender cómo se puede automatizar un sistema de señalización mediante instrucciones programadas, logrando que diferentes luces se activen y desactiven en un orden establecido sin necesidad de intervención manual.
 
-De esta manera, se busca aplicar los conocimientos adquiridos durante el semestre en electrónica, programación y sistemas de control.
+De esta manera, buscamos aplicar los conocimientos adquiridos durante el semestre en electrónica, programación y sistemas de control.
 
 ## 4. Objetivos
 
 ### Objetivo general
 
-Diseñar y simular un sistema de semáforo electrónico automatizado mediante una placa Arduino UNO, utilizando diodos LED y programación para controlar la secuencia de las señales luminosas.
+Diseñar un sistema de semáforo electrónico automatizado mediante una placa Arduino UNO, utilizando diodos LED y programación para establecer una secuencia de señales luminosas.
 
 ### Objetivos específicos
 
-- Identificar los componentes electrónicos necesarios para construir un semáforo automatizado.
+- Identificar los componentes electrónicos necesarios para desarrollar un semáforo automatizado.
 - Comprender el funcionamiento de las salidas digitales de Arduino.
-- Realizar las conexiones eléctricas de los tres LED utilizando resistencias de protección.
-- Programar una secuencia automática para controlar las luces roja, amarilla y verde.
+- Identificar las conexiones eléctricas necesarias para los tres LED y sus resistencias de protección.
+- Desarrollar una programación para controlar las luces roja, amarilla y verde.
 - Aplicar conceptos básicos de electrónica, programación y automatización.
 - Representar el diseño del proyecto mediante una maqueta tridimensional.
-- Comprobar mediante simulación el funcionamiento de las diferentes etapas del semáforo.
-
-
+- Explicar el funcionamiento de las diferentes etapas del semáforo.
 
 ## 5. Descripción del funcionamiento
 
-El proyecto funciona mediante una placa Arduino UNO, que actúa como el cerebro principal del sistema. Su responsabilidad es enviar señales eléctricas a los diferentes LED para controlar su encendido y apagado.
+Nuestro proyecto utiliza una placa Arduino UNO, que funciona como el cerebro principal del sistema. Su responsabilidad es enviar señales eléctricas a los diferentes LED para controlar su encendido y apagado.
 
 El semáforo utiliza tres luces:
 
@@ -74,8 +68,7 @@ El semáforo utiliza tres luces:
 
 La duración total de una secuencia completa es de 12 segundos.
 
-Este funcionamiento permite representar el comportamiento básico de un semáforo convencional mediante un sistema automatizado.
-
+Mediante esta programación representamos el comportamiento básico de un semáforo convencional utilizando un sistema automatizado.
 
 ## 6. Componentes utilizados
 
@@ -88,12 +81,10 @@ Este funcionamiento permite representar el comportamiento básico de un semáfor
 | Resistencias de 220 Ω o 330 Ω | 3 | Limitan la corriente para proteger los LED. |
 | Cables de conexión | Según necesidad | Permiten conectar los componentes electrónicos. |
 | Protoboard | 1 | Facilita la organización de las conexiones. |
-| Tinkercad | 1 plataforma | Permite diseñar y simular el circuito electrónico. |
-
 
 ## 7. Arquitectura del sistema
 
-La arquitectura del proyecto está organizada en tres partes principales:
+Organizamos la arquitectura de nuestro proyecto en tres partes principales:
 
 ### 1. Unidad de control
 
@@ -107,11 +98,11 @@ Está conformada por los tres LED de colores. Cada uno se encuentra conectado a 
 
 El circuito utiliza la alimentación proporcionada por Arduino y una conexión común a tierra (GND), que permite completar los circuitos eléctricos.
 
-La interacción entre estos elementos permite que el sistema funcione de manera automática y ordenada.
+La interacción entre estos elementos permite establecer una secuencia automática de encendido y apagado de las luces.
 
 ### Flujo general del sistema
 
-text
+```text
         ARDUINO UNO
              |
        PROGRAMA C/C++
@@ -127,13 +118,11 @@ text
       SECUENCIA AUTOMÁTICA
              |
        REPETICIÓN DEL CICLO
-
-
-
+```
 
 ## 8. Diagrama de conexiones electrónicas
 
-Para desarrollar el circuito se utilizaron tres salidas digitales de Arduino UNO.
+Para el diseño del circuito establecimos tres salidas digitales de Arduino UNO.
 
 ### Distribución de los pines
 
@@ -143,7 +132,7 @@ Para desarrollar el circuito se utilizaron tres salidas digitales de Arduino UNO
 | LED amarillo | Pin digital 12 |
 | LED verde | Pin digital 11 |
 
-### Explicación detallada de las conexiones
+### Explicación de las conexiones
 
 **LED rojo:**
 
@@ -173,24 +162,22 @@ Es importante utilizar una resistencia independiente para cada LED, ya que su fu
 - Cada LED utiliza su propia resistencia de protección.
 - No se deben conectar los LED directamente a los pines sin utilizar resistencias.
 
-**Nota:** En esta sección se debe insertar una captura real del circuito desarrollado en Tinkercad.
-
-
+**Nota:** En esta sección se puede incluir una imagen del diseño de las conexiones del proyecto.
 
 ## 9. Desarrollo del software y explicación del código
 
-El software del proyecto fue desarrollado utilizando el lenguaje de programación basado en C/C++ para Arduino UNO.
+Para desarrollar el software utilizamos el lenguaje de programación basado en C/C++ para Arduino UNO.
 
-Su función principal es controlar automáticamente el encendido y apagado de tres luces LED, simulando el funcionamiento de un semáforo convencional.
+La función principal del programa es controlar automáticamente el encendido y apagado de tres luces LED, siguiendo una secuencia que representa el funcionamiento de un semáforo convencional.
 
-El programa utiliza tres pines digitales de Arduino, cada uno conectado a un LED de diferente color.
+El programa utiliza tres pines digitales de Arduino, cada uno destinado a controlar un LED de diferente color.
 
 ### 9.1. Código fuente completo
 
-Archivo:
+Archivo: `semaforo.ino`
 
-
-// Definición de los pines según tu conexión
+```cpp
+// Definición de los pines según nuestra conexión
 const int luzRoja = 13;
 const int luzAmarilla = 12;
 const int luzVerde = 11;
@@ -221,17 +208,17 @@ void loop() {
   digitalWrite(luzRoja, HIGH);
   delay(5000);
 }
-
+```
 
 ### 9.2. Declaración de los pines
 
-
+```cpp
 const int luzRoja = 13;
 const int luzAmarilla = 12;
 const int luzVerde = 11;
+```
 
-
-En esta parte se definen tres variables constantes que representan los pines digitales donde están conectados los LED.
+En esta parte definimos tres variables constantes que representan los pines digitales destinados a controlar los LED.
 
 - `luzRoja`: identifica el pin 13.
 - `luzAmarilla`: identifica el pin 12.
@@ -241,13 +228,13 @@ La palabra `const` indica que estos valores permanecen constantes durante la eje
 
 ### 9.3. Función setup()
 
-
+```cpp
 void setup() {
   pinMode(luzRoja, OUTPUT);
   pinMode(luzAmarilla, OUTPUT);
   pinMode(luzVerde, OUTPUT);
 }
-
+```
 
 Esta función se ejecuta una sola vez cuando Arduino inicia o se reinicia.
 
@@ -261,7 +248,7 @@ La palabra `OUTPUT` indica que Arduino utilizará estos pines para enviar señal
 void loop() {
 
 
-Esta función contiene las instrucciones principales del semáforo.
+Esta función contiene las instrucciones principales de nuestro semáforo.
 
 Arduino ejecuta continuamente las instrucciones que se encuentran dentro de `loop()`, permitiendo que la secuencia de luces se repita automáticamente.
 
@@ -336,167 +323,126 @@ La duración total del ciclo es de 12 segundos.
 
 ### Conclusión del desarrollo del software
 
-Mediante este código se logró establecer una secuencia automática de tres señales luminosas utilizando Arduino UNO. La programación permite controlar individualmente cada LED, establecer tiempos específicos de funcionamiento y repetir el proceso continuamente.
+Mediante este código establecimos una secuencia automática de tres señales luminosas utilizando Arduino UNO. La programación permite controlar individualmente cada LED, establecer tiempos específicos de funcionamiento y repetir el proceso continuamente.
 
-Este desarrollo demuestra la aplicación de conceptos fundamentales de programación de microcontroladores, control de salidas digitales y automatización.
+Con este desarrollo aplicamos conceptos fundamentales de programación de microcontroladores, control de salidas digitales y automatización.
+
+## 10. Organización del proyecto
+
+Para organizar los archivos del proyecto proponemos la siguiente estructura de carpetas:
+
+`text
+SEMAFORO-ARDUINO/
+│
+├── README.md
+│
+├── codigo/
+│   └── semaforo.ino
+│
+├── diagramas/
+│   ├── conexiones.png
+│   └── maqueta_3d.png
+│
+├── evidencias/
+│   ├── fotos/
+│   │   ├── evidencia_1.png
+│   │   ├── evidencia_2.png
+│   │   └── evidencia_3.png
+│   │
+│   └── videos/
+│       └── enlace_video.txt
+│
+└── documentacion/
+    └── descripcion_tecnica.md
 
 
+Esta organización permite mantener separados el código fuente, los diagramas, las evidencias y la documentación del proyecto.
 
-## 10. Instalación y puesta en funcionamiento
+## 11. Análisis del funcionamiento del proyecto
 
-Para reproducir el proyecto mediante Tinkercad se deben seguir los siguientes pasos:
+De acuerdo con el código desarrollado, podemos identificar tres etapas principales en el funcionamiento del semáforo.
 
-1. Ingresar a la plataforma Tinkercad.
-2. Acceder a la sección de circuitos.
-3. Crear un nuevo circuito electrónico.
-4. Agregar una placa Arduino UNO.
-5. Incorporar tres LED de diferentes colores.
-6. Agregar tres resistencias de 220 Ω o 330 Ω.
-7. Realizar las conexiones correspondientes a los pines 13, 12 y 11.
-8. Conectar los cátodos de los LED a GND.
-9. Ingresar el código de programación en el editor de Arduino.
-10. Iniciar la simulación.
-11. Observar cómo se encienden las luces siguiendo la secuencia programada.
+### Primera etapa. Luz verde
 
-Para una implementación física, se debe realizar el mismo circuito utilizando los componentes electrónicos reales y alimentar correctamente la placa Arduino.
+**Objetivo:** Identificar el funcionamiento de la luz verde dentro de la secuencia programada.
 
+**Funcionamiento esperado:** El LED verde, conectado al pin digital 11, debe permanecer encendido durante cinco segundos, mientras las otras dos luces permanecen apagadas.
 
+### Segunda etapa. Luz amarilla
 
-## 11. Pruebas realizadas
+**Objetivo:** Identificar el cambio de la luz verde a la amarilla.
 
-Para verificar el comportamiento del proyecto se establecieron tres pruebas principales mediante la simulación del circuito.
+**Funcionamiento esperado:** La luz verde debe apagarse y la amarilla, conectada al pin digital 12, debe encenderse durante dos segundos.
 
-### Prueba 1. Encendido de la luz verde
+### Tercera etapa. Luz roja
 
-**Objetivo:** Comprobar que el LED verde se encienda correctamente durante el inicio de la secuencia.
+**Objetivo:** Identificar la etapa final de la secuencia del semáforo.
 
-**Procedimiento:** Iniciar la simulación y observar el comportamiento del LED conectado al pin digital 11.
+**Funcionamiento esperado:** La luz roja, conectada al pin digital 13, debe permanecer encendida durante cinco segundos. Después, el programa debe comenzar nuevamente con la luz verde.
 
-**Resultado esperado:** El LED verde debe encenderse durante cinco segundos, mientras los otros dos permanecen apagados.
+### Resumen del funcionamiento
 
-**Resultado obtenido:** Documentar el resultado observado en Tinkercad.
-
-**Evidencia:** Captura de pantalla de la simulación con el LED verde encendido.
-
-### Prueba 2. Cambio de la luz verde a la amarilla
-
-**Objetivo:** Comprobar que el sistema realice correctamente el cambio entre la luz verde y la amarilla.
-
-**Procedimiento:** Mantener activa la simulación y observar el cambio de las luces después de los primeros cinco segundos.
-
-**Resultado esperado:** La luz verde debe apagarse y la luz amarilla debe encenderse durante dos segundos.
-
-**Resultado obtenido:** Documentar el resultado observado en Tinkercad.
-
-**Evidencia:** Captura de pantalla de la simulación con el LED amarillo encendido.
-
-### Prueba 3. Activación de la luz roja y reinicio del ciclo
-
-**Objetivo:** Verificar que el sistema active la luz roja y posteriormente reinicie la secuencia.
-
-**Procedimiento:** Observar el funcionamiento después de la etapa amarilla y comprobar el comportamiento al finalizar los cinco segundos de la etapa roja.
-
-**Resultado esperado:** La luz roja debe encenderse durante cinco segundos. Después, el programa debe volver a activar la luz verde.
-
-**Resultado obtenido:** Documentar el resultado observado en Tinkercad.
-
-**Evidencia:** Capturas de pantalla de la luz roja encendida y del reinicio del ciclo.
-
-### Tabla general de pruebas
-
-| Prueba | Resultado esperado | Resultado obtenido |
+| Etapa | Luz activada | Tiempo programado |
 |---|---|---|
-| Encendido del LED verde | Encender durante 5 segundos. | Pendiente de documentar con evidencia real. |
-| Activación del LED amarillo | Encender durante 2 segundos. | Pendiente de documentar con evidencia real. |
-| Activación del LED rojo | Encender durante 5 segundos y reiniciar el ciclo. | Pendiente de documentar con evidencia real. |
+| Primera | Verde | 5 segundos |
+| Segunda | Amarilla | 2 segundos |
+| Tercera | Roja | 5 segundos |
 
-**Nota:** Las pruebas corresponden a la validación mediante simulación. Los resultados definitivos deben registrarse después de observar cada comportamiento y adjuntar las capturas correspondientes.
+La secuencia está definida en el código fuente y tiene una duración total de 12 segundos por ciclo.
 
-
+Esta explicación permite comprender cómo debería comportarse el sistema de acuerdo con las instrucciones de programación.
 
 ## 12. Evidencias fotográficas y visuales
 
-Las evidencias 
-<img width="450" alt="Evidencia del proyecto" src="https://github.com/user-attachments/assets/ece49bd8-87ab-4f30-af66-1ac4e3e4b433" />
-
-
-https://github.com/user-attachments/assets/2e759d77-87da-4990-8d8c-be9260154594
-
-
-
-
-### Representación tridimensional
-
-Como complemento al desarrollo electrónico, se elaboró una representación tridimensional del semáforo para mostrar cómo podría visualizarse el prototipo en una estructura física.
-
-La maqueta permite representar la distribución de las luces, la organización del semáforo y su apariencia general.
-
-Este diseño complementa el trabajo de simulación electrónica y permite visualizar una posible implementación física del proyecto.
-
-**Importante:** Las imágenes deben corresponder al trabajo realmente realizado. La maqueta 3D y las capturas de Tinkercad se identifican como representaciones digitales, no como fotografías de un montaje físico.
+<img width="450" height="1152" alt="evidencia" src="https://github.com/user-attachments/assets/09a8fce2-96bf-4163-9077-42e67c2ded63" />
 
 
 
 ## 13. Video demostrativo
 
-Se propone realizar un video de entre tres y cinco minutos para presentar el desarrollo y funcionamiento del proyecto.
 
-El video debe incluir:
 
-1. Presentación del semáforo electrónico.
-2. Explicación del problema y los objetivos.
-3. Presentación de los componentes electrónicos.
-4. Explicación de las conexiones realizadas.
-5. Explicación del código de Arduino.
-6. Demostración de la simulación y los cambios de las luces.
-7. Presentación de la maqueta tridimensional.
-8. Conclusiones sobre el desarrollo del proyecto.
-
-**Enlace del video:** Pendiente de agregar.
+https://github.com/user-attachments/assets/ab6c1f60-d206-46ed-bb02-1e346a0d4af6
 
 
 
 ## 14. Dificultades y soluciones
 
-Durante el desarrollo de un proyecto de estas características pueden presentarse diferentes dificultades técnicas. A continuación, se describen dos aspectos importantes que deben revisarse durante el proceso de construcción y validación.
+Durante el desarrollo de nuestro proyecto tuvimos en cuenta diferentes aspectos técnicos necesarios para comprender el funcionamiento de un semáforo electrónico.
 
-### Dificultad 1. Organización de las conexiones electrónicas
+### Dificultad 1. Identificación de las conexiones electrónicas
 
 Al trabajar con varios LED es necesario identificar correctamente las terminales positivas y negativas de cada componente. Una conexión incorrecta puede impedir que una luz funcione.
 
-**Solución:** Revisar la polaridad de cada LED, verificar las conexiones a los pines digitales y comprobar que todos compartan la conexión a tierra.
+**Solución propuesta:** Identificar la polaridad de cada LED, revisar la distribución de los pines digitales y tener en cuenta la conexión a tierra para organizar correctamente el circuito.
 
-### Dificultad 2. Control de la secuencia de encendido
+### Dificultad 2. Organización de la secuencia de encendido
 
-La programación debe garantizar que las luces se activen en el orden correcto y que no se produzcan combinaciones de señales no previstas.
+La programación debe establecer que las luces se activen en el orden correcto y que cada una tenga un tiempo determinado.
 
-**Solución:** Organizar las instrucciones de encendido, apagado y espera mediante las funciones de Arduino, verificando cada etapa durante la simulación.
-
-
+**Solución:** Organizamos las instrucciones de encendido, apagado y espera mediante las funciones de Arduino, teniendo en cuenta los tiempos establecidos para cada luz.
 
 ## 15. Conclusiones y estado actual del proyecto
 
-El desarrollo del semáforo electrónico permitió aplicar conocimientos fundamentales de electrónica, programación y automatización mediante el uso de Arduino UNO.
+El desarrollo de nuestro semáforo electrónico nos permitió trabajar con conocimientos fundamentales de electrónica, programación y automatización mediante el uso de Arduino UNO.
 
-A través de este proyecto se comprendió la importancia de los microcontroladores en el control de dispositivos electrónicos y cómo, mediante instrucciones de programación, es posible automatizar un proceso que normalmente requiere la intervención de un sistema de control.
+A través de este proyecto comprendimos la importancia de los microcontroladores en el control de dispositivos electrónicos y cómo, mediante instrucciones de programación, podemos establecer el funcionamiento automático de un sistema.
 
-También se trabajó en la identificación de componentes electrónicos, la conexión de LED, el uso de resistencias para limitar la corriente y la configuración de salidas digitales.
+También estudiamos la identificación de componentes electrónicos, la conexión de LED, el uso de resistencias para limitar la corriente y la configuración de salidas digitales.
 
-La programación permitió establecer una secuencia de funcionamiento con tiempos definidos de cinco segundos para la luz verde, dos segundos para la amarilla y cinco segundos para la roja.
+La programación nos permitió establecer una secuencia de funcionamiento con tiempos definidos de cinco segundos para la luz verde, dos segundos para la amarilla y cinco segundos para la roja.
 
-La simulación en Tinkercad permitió representar el circuito y comprobar visualmente la relación entre el código y el comportamiento de los componentes.
-
-Adicionalmente, la elaboración de una maqueta tridimensional permitió complementar la parte electrónica con una representación visual de cómo podría presentarse el prototipo terminado.
+Adicionalmente, elaboramos una maqueta tridimensional que complementó el diseño electrónico con una representación visual de cómo podría presentarse el prototipo terminado.
 
 ### Estado actual
 
-El proyecto cuenta con el diseño y la simulación del semáforo electrónico, además de su representación tridimensional.
+Nuestro proyecto cuenta con el diseño del semáforo electrónico, el código de programación y una representación tridimensional del prototipo.
 
-El montaje físico no se presenta como una implementación realizada. Por esta razón, las evidencias técnicas corresponden al diseño digital y a las pruebas realizadas en el entorno de simulación.
+El montaje físico no se presenta como una implementación realizada. Por esta razón, la documentación describe el diseño, la programación y la propuesta de funcionamiento del sistema.
 
 ### Mejoras futuras
 
-El proyecto puede ampliarse mediante nuevas funcionalidades:
+Como grupo consideramos que nuestro proyecto puede ampliarse mediante nuevas funcionalidades:
 
 - Incorporar un botón para solicitar el paso peatonal.
 - Agregar una pantalla LCD para mostrar el tiempo restante.
@@ -505,4 +451,4 @@ El proyecto puede ampliarse mediante nuevas funcionalidades:
 - Diseñar una estructura física que represente una intersección vial.
 - Mejorar la programación para controlar diferentes tiempos según las necesidades del sistema.
 
-En conclusión, este proyecto permitió comprender cómo se integran los componentes electrónicos con la programación para desarrollar un sistema automatizado. Además, representó una oportunidad para fortalecer los conocimientos adquiridos durante el semestre y aplicarlos en una solución práctica relacionada con la regulación del tránsito.
+En conclusión, este proyecto nos permitió comprender cómo se pueden integrar los componentes electrónicos con la programación para diseñar un sistema automatizado. Además, fue una oportunidad para fortalecer nuestros conocimientos, trabajar en equipo y aplicar lo aprendido durante el semestre en una propuesta relacionada con la regulación del tránsito.
