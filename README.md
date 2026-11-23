@@ -418,18 +418,9 @@ Para verificar el comportamiento del proyecto se establecieron tres pruebas prin
 
 ## 12. Evidencias fotográficas y visuales
 
-Las evidencias permiten observar el proceso de diseño, organización y simulación del semáforo electrónico.
+Las evidencias 
+<img width="864" height="1152" alt="evidencia" src="https://github.com/user-attachments/assets/ece49bd8-87ab-4f30-af66-1ac4e3e4b433" />
 
-Se propone organizar las imágenes de la siguiente manera:
-
-| Archivo | Descripción |
-|---|---|
-| `componentes.png` | Componentes utilizados en el proyecto. |
-| `conexiones.png` | Circuito con las conexiones entre Arduino y los LED. |
-| `semaforo_verde.png` | Simulación durante la activación de la luz verde. |
-| `semaforo_amarillo.png` | Simulación durante la activación de la luz amarilla. |
-| `semaforo_rojo.png` | Simulación durante la activación de la luz roja. |
-| `maqueta_3d.png` | Representación tridimensional del semáforo. |
 
 ### Representación tridimensional
 
